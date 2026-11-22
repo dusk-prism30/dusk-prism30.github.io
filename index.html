@@ -1,0 +1,1087 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>啊啊好爽轻点 - 官方视频门户 · 高清原创影像社区</title>
+<meta name="description" content="啊啊好爽轻点官方网站，专注高清原创影像与创作者内容生态的专业视频品牌门户，提供精品视频、创作者社区与品牌故事。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23e8462f'/%3E%3Cpath d='M25 19l18 13-18 13z' fill='%23fff8f0'/%3E%3C/svg%3E">
+<style>
+:root{
+  --xxipt-red:#e8462f;
+  --xxipt-red-dark:#b8321f;
+  --xxipt-ink:#16130f;
+  --xxipt-paper:#fdfaf5;
+  --xxipt-line:#e2d9cc;
+  --xxipt-mute:#6d655c;
+  --xxipt-amber:#f2a63b;
+  --xxipt-shadow:0 18px 40px -22px rgba(35,20,8,.45);
+  --xxipt-head:118px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;scroll-padding-top:var(--xxipt-head);}
+body{
+  margin:0;
+  background:var(--xxipt-paper);
+  color:var(--xxipt-ink);
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+img,svg{max-width:100%;display:block;}
+h1,h2,h3,h4{margin:0;line-height:1.25;font-weight:800;letter-spacing:-.01em;}
+p{margin:0 0 .9em;}
+a{color:inherit;text-decoration:none;}
+button{font:inherit;cursor:pointer;}
+.xxipt-wrap{width:min(1180px,92vw);margin-inline:auto;}
+
+/* ---------- sticky notice + header ---------- */
+.xxipt-sticky{position:sticky;top:0;z-index:80;background:var(--xxipt-paper);}
+.xxipt-notice{
+  background:var(--xxipt-ink);color:#f6efe4;font-size:13.5px;
+  display:flex;align-items:center;gap:14px;padding:8px 0;
+}
+.xxipt-notice .xxipt-wrap{display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
+.xxipt-notice-badge{
+  background:var(--xxipt-red);color:#fff;border-radius:3px;
+  padding:1px 8px;font-weight:700;font-size:12px;letter-spacing:.08em;white-space:nowrap;
+}
+.xxipt-notice-ticker{flex:1;min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.xxipt-notice a{border-bottom:1px dashed rgba(246,239,228,.5);padding-bottom:1px;}
+
+.xxipt-header{background:rgba(253,250,245,.96);border-bottom:1px solid var(--xxipt-line);backdrop-filter:blur(8px);}
+.xxipt-header-inner{display:flex;align-items:center;gap:26px;padding:14px 0;}
+.xxipt-brand{display:flex;align-items:center;gap:10px;flex-shrink:0;}
+.xxipt-brand-mark{
+  width:38px;height:38px;border-radius:10px;background:var(--xxipt-red);
+  display:grid;place-items:center;color:#fff;font-weight:900;font-size:19px;
+}
+.xxipt-brand-name{font-size:18px;font-weight:900;letter-spacing:.01em;}
+.xxipt-brand-sub{display:block;font-size:11px;color:var(--xxipt-mute);font-weight:500;letter-spacing:.16em;}
+.xxipt-nav{display:flex;gap:22px;margin-left:auto;font-size:15px;font-weight:600;flex-wrap:wrap;}
+.xxipt-nav a{padding:4px 0;border-bottom:2px solid transparent;transition:.2s;}
+.xxipt-nav a:hover{border-color:var(--xxipt-red);color:var(--xxipt-red-dark);}
+.xxipt-search{display:flex;align-items:center;gap:6px;border:1px solid var(--xxipt-line);border-radius:999px;padding:5px 6px 5px 14px;background:#fff;min-width:210px;}
+.xxipt-search input{border:0;outline:0;background:transparent;width:100%;font-size:14px;color:var(--xxipt-ink);}
+.xxipt-search button{border:0;background:var(--xxipt-red);color:#fff;border-radius:999px;padding:5px 13px;font-size:13px;font-weight:700;}
+.xxipt-burger{display:none;border:1px solid var(--xxipt-line);background:#fff;border-radius:8px;padding:7px 10px;font-size:18px;}
+.xxipt-search-hint{font-size:12.5px;color:var(--xxipt-red-dark);padding:0 0 8px;min-height:18px;}
+.xxipt-mobile-nav{display:none;border-top:1px dashed var(--xxipt-line);padding:10px 0 16px;}
+.xxipt-mobile-nav a{display:block;padding:9px 4px;border-bottom:1px solid #efe7da;font-weight:600;}
+.xxipt-mobile-nav.open{display:block;}
+
+/* ---------- hero : 4:6 图文 ---------- */
+.xxipt-hero{padding:52px 0 44px;position:relative;overflow:hidden;}
+.xxipt-hero::after{
+  content:"";position:absolute;right:-120px;top:-60px;width:420px;height:420px;border-radius:50%;
+  background:radial-gradient(circle,rgba(242,166,59,.22),transparent 68%);z-index:0;
+}
+.xxipt-hero-grid{
+  position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,4fr) minmax(0,6fr);gap:44px;align-items:center;
+}
+.xxipt-kicker{
+  display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:800;letter-spacing:.2em;
+  color:var(--xxipt-red-dark);text-transform:uppercase;margin-bottom:16px;
+}
+.xxipt-kicker::before{content:"";width:26px;height:2px;background:var(--xxipt-red);}
+h1.xxipt-title{font-size:clamp(38px,5.6vw,62px);letter-spacing:-.03em;}
+h1.xxipt-title em{font-style:normal;color:var(--xxipt-red);}
+.xxipt-lead{font-size:17px;color:#403a33;margin-top:18px;max-width:34em;}
+.xxipt-intro{font-size:14.5px;color:var(--xxipt-mute);margin-top:14px;max-width:36em;}
+.xxipt-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;}
+.xxipt-btn{
+  display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:11px 22px;
+  font-weight:700;font-size:15px;border:1.5px solid var(--xxipt-red);background:var(--xxipt-red);color:#fff;
+  transition:.18s;box-shadow:0 10px 24px -14px rgba(232,70,47,.9);
+}
+.xxipt-btn:hover{background:var(--xxipt-red-dark);border-color:var(--xxipt-red-dark);transform:translateY(-1px);}
+.xxipt-btn.ghost{background:#fff;color:var(--xxipt-ink);border-color:var(--xxipt-line);box-shadow:none;}
+.xxipt-btn.ghost:hover{border-color:var(--xxipt-ink);background:#fff;}
+.xxipt-btn.small{padding:7px 15px;font-size:13.5px;box-shadow:none;}
+.xxipt-hero-figure{position:relative;}
+.xxipt-hero-figure .xxipt-hero-art{
+  border-radius:18px;overflow:hidden;border:1px solid var(--xxipt-line);box-shadow:var(--xxipt-shadow);background:#fff;
+}
+.xxipt-hero-art svg{width:100%;height:auto;}
+.xxipt-hero-caption{
+  display:flex;justify-content:space-between;gap:14px;font-size:12.5px;color:var(--xxipt-mute);
+  padding:10px 4px 0;flex-wrap:wrap;
+}
+.xxipt-stats{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:28px;
+  border-top:1px solid var(--xxipt-line);padding-top:20px;
+}
+.xxipt-stat b{display:block;font-size:26px;font-weight:900;color:var(--xxipt-red-dark);letter-spacing:-.02em;}
+.xxipt-stat span{font-size:12.5px;color:var(--xxipt-mute);}
+
+/* ---------- section shell ---------- */
+.xxipt-section{padding:54px 0;border-top:1px solid var(--xxipt-line);}
+.xxipt-section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:26px;flex-wrap:wrap;}
+.xxipt-section-head h2{font-size:clamp(24px,3vw,33px);}
+.xxipt-section-head p{color:var(--xxipt-mute);font-size:14px;margin:8px 0 0;max-width:52em;}
+.xxipt-tag-label{
+  font-size:12px;font-weight:800;letter-spacing:.18em;color:var(--xxipt-amber);
+  text-transform:uppercase;margin-bottom:8px;display:block;
+}
+.xxipt-chip{
+  display:inline-block;font-size:12px;font-weight:700;background:#f6efe4;color:#7a4a1c;
+  border-radius:999px;padding:2px 10px;margin-right:6px;
+}
+
+/* ---------- focus feature ---------- */
+.xxipt-focus{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:stretch;}
+.xxipt-focus-main{background:#fff;border:1px solid var(--xxipt-line);border-radius:16px;overflow:hidden;box-shadow:var(--xxipt-shadow);}
+.xxipt-focus-main .xxipt-cover{position:relative;aspect-ratio:16/9;background:#111;}
+.xxipt-focus-main .xxipt-cover svg{width:100%;height:100%;}
+.xxipt-play{
+  position:absolute;inset:0;display:grid;place-items:center;
+}
+.xxipt-play span{
+  width:60px;height:60px;border-radius:50%;background:rgba(232,70,47,.92);display:grid;place-items:center;
+  color:#fff;font-size:22px;box-shadow:0 8px 26px rgba(0,0,0,.32);
+}
+.xxipt-focus-body{padding:18px 20px 22px;}
+.xxipt-focus-body h3{font-size:20px;margin-bottom:8px;}
+.xxipt-focus-body p{font-size:14px;color:#4b443c;}
+.xxipt-meta{display:flex;flex-wrap:wrap;gap:14px;font-size:12.5px;color:var(--xxipt-mute);margin-top:10px;}
+.xxipt-ops{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;}
+.xxipt-op{
+  border:1px solid var(--xxipt-line);background:#fff;border-radius:999px;padding:5px 13px;font-size:13px;color:#3b352e;
+  transition:.18s;
+}
+.xxipt-op:hover{border-color:var(--xxipt-red);color:var(--xxipt-red-dark);}
+.xxipt-op.liked{background:#fdeae5;border-color:var(--xxipt-red);color:var(--xxipt-red-dark);font-weight:700;}
+.xxipt-op.saved{background:#fff5e6;border-color:var(--xxipt-amber);color:#8a5612;font-weight:700;}
+
+.xxipt-vlist{display:flex;flex-direction:column;gap:0;background:#fff;border:1px solid var(--xxipt-line);border-radius:16px;overflow:hidden;}
+.xxipt-vlist-item{padding:16px 20px;border-bottom:1px dashed var(--xxipt-line);}
+.xxipt-vlist-item:last-child{border-bottom:0;}
+.xxipt-vlist-item h4{font-size:16px;margin-bottom:4px;}
+.xxipt-vlist-item h4 a:hover{color:var(--xxipt-red-dark);}
+.xxipt-vlist-item p{font-size:13px;color:var(--xxipt-mute);margin:0 0 6px;}
+.xxipt-vlist-item .xxipt-ops{margin-top:8px;}
+
+/* ---------- deep article 800+ ---------- */
+.xxipt-deep{background:#fff;border:1px solid var(--xxipt-line);border-radius:18px;padding:clamp(24px,4vw,46px);box-shadow:var(--xxipt-shadow);}
+.xxipt-deep h2{font-size:clamp(23px,2.8vw,30px);margin-bottom:10px;}
+.xxipt-deep h3{font-size:18.5px;margin:26px 0 10px;padding-left:14px;border-left:3px solid var(--xxipt-red);}
+.xxipt-deep p{font-size:14.8px;color:#3d372f;}
+.xxipt-deep .xxipt-pull{
+  border-left:3px solid var(--xxipt-amber);background:#fffbf3;padding:14px 18px;border-radius:0 10px 10px 0;
+  font-size:14.5px;color:#5b4322;margin:18px 0;
+}
+
+/* ---------- timeline chars ---------- */
+.xxipt-timeline{position:relative;margin-top:8px;padding-left:26px;}
+.xxipt-timeline::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--xxipt-red),var(--xxipt-amber));opacity:.55;}
+.xxipt-tl-item{position:relative;padding:0 0 26px 6px;}
+.xxipt-tl-item::before{content:"";position:absolute;left:-26px;top:7px;width:14px;height:14px;border-radius:50%;background:#fff;border:3px solid var(--xxipt-red);}
+.xxipt-tl-item time{font-size:12px;font-weight:800;color:var(--xxipt-red-dark);letter-spacing:.1em;}
+.xxipt-tl-item h3{font-size:18px;margin:4px 0 6px;}
+.xxipt-tl-item p{font-size:14px;color:var(--xxipt-mute);margin:0;}
+
+/* ---------- specials ---------- */
+.xxipt-specials{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;}
+.xxipt-special{background:#fff;border:1px solid var(--xxipt-line);border-radius:14px;padding:18px 18px 12px;display:flex;flex-direction:column;transition:.2s;}
+.xxipt-special:hover{transform:translateY(-3px);box-shadow:var(--xxipt-shadow);border-color:#d9c6ae;}
+.xxipt-special .xxipt-status{font-size:11.5px;font-weight:800;color:#fff;background:var(--xxipt-amber);border-radius:4px;padding:1px 8px;align-self:flex-start;letter-spacing:.06em;}
+.xxipt-special .xxipt-status.done{background:#7f9a6a;}
+.xxipt-special h3{font-size:17px;margin:10px 0 6px;}
+.xxipt-special p{font-size:13px;color:var(--xxipt-mute);}
+.xxipt-special ul{list-style:none;margin:6px 0 0;padding:0;border-top:1px dashed var(--xxipt-line);}
+.xxipt-special li{font-size:13px;padding:7px 0;border-bottom:1px solid #f3ece1;color:#463f37;}
+.xxipt-special li:last-child{border-bottom:0;}
+
+/* ---------- authors ---------- */
+.xxipt-authors{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;}
+.xxipt-author{background:#fff;border:1px solid var(--xxipt-line);border-radius:16px;padding:20px 18px;text-align:center;transition:.2s;}
+.xxipt-author:hover{border-color:var(--xxipt-red);box-shadow:var(--xxipt-shadow);}
+.xxipt-avatar{width:66px;height:66px;border-radius:50%;margin:0 auto 12px;display:grid;place-items:center;font-size:24px;font-weight:900;color:#fff;}
+.xxipt-author h3{font-size:16px;margin-bottom:2px;}
+.xxipt-author .xxipt-field{font-size:12.5px;color:var(--xxipt-red-dark);font-weight:700;letter-spacing:.04em;margin-bottom:8px;}
+.xxipt-author p{font-size:13px;color:var(--xxipt-mute);margin:0 0 10px;text-align:left;}
+.xxipt-author .xxipt-nums{display:flex;justify-content:center;gap:14px;font-size:12px;color:#4d463e;border-top:1px dashed var(--xxipt-line);padding-top:10px;}
+.xxipt-author .xxipt-nums b{display:block;font-size:14px;color:var(--xxipt-ink);}
+
+/* ---------- charts / index ---------- */
+.xxipt-index{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px;}
+.xxipt-index-card{background:#fff;border:1px solid var(--xxipt-line);border-radius:14px;padding:18px 20px;}
+.xxipt-index-card h3{font-size:16.5px;margin-bottom:10px;display:flex;align-items:center;gap:8px;}
+.xxipt-index-card h3::before{content:"";width:6px;height:18px;background:var(--xxipt-red);border-radius:2px;}
+.xxipt-rank{list-style:none;margin:0;padding:0;}
+.xxipt-rank li{display:flex;gap:12px;padding:9px 0;border-bottom:1px dashed var(--xxipt-line);font-size:13.5px;align-items:flex-start;}
+.xxipt-rank li:last-child{border-bottom:0;}
+.xxipt-rank .xxipt-no{font-weight:900;color:var(--xxipt-amber);font-size:15px;min-width:20px;}
+.xxipt-rank .xxipt-rank-txt{flex:1;min-width:0;}
+.xxipt-rank .xxipt-rank-txt b{display:block;font-size:14px;font-weight:700;}
+.xxipt-rank .xxipt-rank-txt span{font-size:12.5px;color:var(--xxipt-mute);}
+.xxipt-rank .xxipt-hot{font-size:12px;color:var(--xxipt-red-dark);font-weight:700;white-space:nowrap;}
+
+/* ---------- comments ---------- */
+.xxipt-comments{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;}
+.xxipt-comment{background:#fff;border:1px solid var(--xxipt-line);border-radius:14px;padding:16px 18px;}
+.xxipt-comment-top{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
+.xxipt-cavatar{width:36px;height:36px;border-radius:50%;background:#f6efe4;display:grid;place-items:center;font-weight:900;color:#8a5612;font-size:14px;flex-shrink:0;}
+.xxipt-comment-top b{font-size:14px;}
+.xxipt-comment-top em{font-style:normal;font-size:11.5px;color:var(--xxipt-mute);margin-left:auto;white-space:nowrap;}
+.xxipt-comment p{font-size:13.5px;color:#423c34;margin:0;}
+.xxipt-comment .xxipt-tagchip{margin-top:8px;}
+
+/* ---------- misc blocks ---------- */
+.xxipt-two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:26px;}
+.xxipt-news{border-left:3px solid var(--xxipt-amber);padding-left:18px;}
+.xxipt-news-item{padding:0 0 18px;}
+.xxipt-news-item time{font-size:12px;font-weight:800;color:var(--xxipt-red-dark);letter-spacing:.08em;}
+.xxipt-news-item h3{font-size:16px;margin:3px 0 4px;}
+.xxipt-news-item p{font-size:13.5px;color:var(--xxipt-mute);margin:0;}
+
+.xxipt-partners{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;}
+.xxipt-partner{border:1px solid var(--xxipt-line);border-radius:12px;background:#fff;padding:18px 12px;text-align:center;font-weight:800;font-size:14px;letter-spacing:.04em;color:#4c4238;}
+.xxipt-partner span{display:block;font-size:11px;color:var(--xxipt-mute);font-weight:500;letter-spacing:.1em;margin-top:4px;}
+
+.xxipt-faq details{background:#fff;border:1px solid var(--xxipt-line);border-radius:12px;padding:14px 18px;margin-bottom:10px;}
+.xxipt-faq summary{cursor:pointer;font-weight:700;font-size:15px;list-style:none;display:flex;justify-content:space-between;gap:12px;}
+.xxipt-faq summary::-webkit-details-marker{display:none;}
+.xxipt-faq summary::after{content:"+";color:var(--xxipt-red);font-weight:900;font-size:18px;line-height:1;}
+.xxipt-faq details[open] summary::after{content:"–";}
+.xxipt-faq details p{font-size:13.5px;color:var(--xxipt-mute);margin:10px 0 0;}
+
+.xxipt-submit{background:var(--xxipt-ink);color:#f6efe4;border-radius:18px;padding:clamp(24px,4vw,40px);display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:26px;align-items:center;}
+.xxipt-submit h2{color:#fff;font-size:clamp(22px,2.6vw,28px);}
+.xxipt-submit p{color:#cdc2b3;font-size:14.5px;}
+.xxipt-submit .xxipt-hero-actions{margin-top:18px;}
+
+/* ---------- footer ---------- */
+.xxipt-footer{background:#1b1712;color:#c9bfb1;padding:46px 0 26px;font-size:13.5px;}
+.xxipt-footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:30px;}
+.xxipt-footer h4{color:#fff;font-size:14px;margin-bottom:12px;letter-spacing:.06em;}
+.xxipt-footer a:hover{color:var(--xxipt-amber);}
+.xxipt-footer ul{list-style:none;margin:0;padding:0;}
+.xxipt-footer li{padding:4px 0;}
+.xxipt-footer-bottom{border-top:1px solid #332c24;margin-top:30px;padding-top:16px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12.5px;color:#8d8274;}
+
+/* ---------- toast / back to top ---------- */
+.xxipt-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);background:var(--xxipt-ink);color:#fff;
+  padding:11px 22px;border-radius:999px;font-size:13.5px;opacity:0;pointer-events:none;transition:.28s;z-index:200;
+  box-shadow:0 14px 32px -12px rgba(0,0,0,.6);
+}
+.xxipt-toast.on{opacity:1;transform:translate(-50%,0);}
+.xxipt-top{
+  position:fixed;right:20px;bottom:24px;width:44px;height:44px;border-radius:50%;border:0;background:var(--xxipt-red);
+  color:#fff;font-size:18px;display:grid;place-items:center;opacity:0;pointer-events:none;transition:.25s;z-index:150;
+  box-shadow:0 10px 24px -10px rgba(232,70,47,.9);
+}
+.xxipt-top.on{opacity:1;pointer-events:auto;}
+
+/* ---------- modal ---------- */
+.xxipt-modal{position:fixed;inset:0;z-index:300;display:none;align-items:center;justify-content:center;padding:20px;}
+.xxipt-modal.open{display:flex;}
+.xxipt-modal-mask{position:absolute;inset:0;background:rgba(20,14,8,.55);}
+.xxipt-modal-box{position:relative;background:var(--xxipt-paper);border-radius:18px;max-width:520px;width:100%;padding:26px 24px;box-shadow:0 30px 70px -20px rgba(0,0,0,.6);max-height:86vh;overflow:auto;}
+.xxipt-modal-box h3{font-size:20px;margin-bottom:10px;}
+.xxipt-modal-box p{font-size:14px;color:var(--xxipt-mute);}
+.xxipt-modal-close{position:absolute;right:14px;top:10px;border:0;background:transparent;font-size:24px;color:var(--xxipt-mute);line-height:1;}
+.xxipt-share-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;}
+
+@media (max-width:980px){
+  :root{--xxipt-head:104px;}
+  .xxipt-hero-grid{grid-template-columns:1fr;gap:28px;}
+  .xxipt-focus,.xxipt-index,.xxipt-two,.xxipt-submit{grid-template-columns:1fr;}
+  .xxipt-authors{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .xxipt-specials,.xxipt-partners{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .xxipt-comments{grid-template-columns:1fr;}
+  .xxipt-footer-grid{grid-template-columns:1fr 1fr;}
+}
+@media (max-width:760px){
+  .xxipt-nav{display:none;}
+  .xxipt-search{display:none;}
+  .xxipt-burger{display:block;margin-left:auto;}
+  .xxipt-header-inner{gap:12px;padding:10px 0;}
+  .xxipt-notice{font-size:12.5px;}
+  .xxipt-notice-ticker{white-space:normal;}
+  .xxipt-authors{grid-template-columns:1fr;}
+  .xxipt-specials,.xxipt-partners{grid-template-columns:1fr;}
+  .xxipt-stats{gap:8px;}
+  .xxipt-stat b{font-size:21px;}
+  .xxipt-footer-grid{grid-template-columns:1fr;}
+  .xxipt-hero{padding:34px 0 30px;}
+  .xxipt-section{padding:38px 0;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+<div class="xxipt-sticky">
+  <div class="xxipt-notice">
+    <div class="xxipt-wrap">
+      <span class="xxipt-notice-badge">官方发布</span>
+      <span class="xxipt-notice-ticker">新增「冬日创作挑战」专题 12 条高清正版视频上线 · 创作者招募第二期开放报名 · 11 月 24 日 20:00 直播「镜头里的城市温度」</span>
+      <a href="#xxipt-news">查看更新日志</a>
+    </div>
+  </div>
+  <header class="xxipt-header">
+    <div class="xxipt-wrap xxipt-header-inner">
+      <a class="xxipt-brand" href="#top">
+        <span class="xxipt-brand-mark">啊</span>
+        <span class="xxipt-brand-name">啊啊好爽轻点<span class="xxipt-brand-sub">OFFICIAL VIDEO</span></span>
+      </a>
+      <nav class="xxipt-nav" aria-label="主导航">
+        <a href="#xxipt-focus">焦点内容</a>
+        <a href="#xxipt-deep">品牌解析</a>
+        <a href="#xxipt-specials">专题企划</a>
+        <a href="#xxipt-authors">创作者</a>
+        <a href="#xxipt-index">口碑榜</a>
+        <a href="#xxipt-faq">帮助</a>
+      </nav>
+      <form class="xxipt-search" id="xxiptSearchForm" role="search">
+        <input type="search" id="xxiptSearchInput" placeholder="搜索视频、创作者、专题" aria-label="站内搜索">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="xxipt-burger" id="xxiptBurger" aria-expanded="false" aria-controls="xxiptMobileNav">☰</button>
+    </div>
+    <div class="xxipt-wrap">
+      <div class="xxipt-search-hint" id="xxiptSearchHint"></div>
+      <div class="xxipt-mobile-nav" id="xxiptMobileNav">
+        <a href="#xxipt-focus">焦点内容</a>
+        <a href="#xxipt-deep">品牌解析</a>
+        <a href="#xxipt-specials">专题企划</a>
+        <a href="#xxipt-authors">创作者</a>
+        <a href="#xxipt-index">口碑榜</a>
+        <a href="#xxipt-news">企业动态</a>
+        <a href="#xxipt-faq">帮助</a>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="xxipt-hero" aria-labelledby="xxipt-hero-title">
+    <div class="xxipt-wrap xxipt-hero-grid">
+      <div>
+        <span class="xxipt-kicker">官方网站 · 品牌门户</span>
+        <h1 class="xxipt-title" id="xxipt-hero-title">啊啊好爽轻点</h1>
+        <p class="xxipt-lead">一个把「真实的情绪」拍成高清影像的原创视频品牌。我们把生活的爽快、克制与温柔，做成可以被反复观看的精品内容。</p>
+        <p class="xxipt-intro">作为深耕生活影像垂直领域的视频企业，啊啊好爽轻点官方网站持续运营高清正版内容社区，连接专业创作者与真实观众，以匠心打磨每一帧画面，用陪伴与温暖构建值得信赖的内容生态。</p>
+        <div class="xxipt-hero-actions">
+          <a class="xxipt-btn" href="#xxipt-focus">观看本期精选</a>
+          <button class="xxipt-btn ghost" type="button" data-xxipt-modal="submit">投稿与报名</button>
+          <a class="xxipt-btn ghost" href="#xxipt-deep">了解品牌故事</a>
+        </div>
+        <div class="xxipt-stats">
+          <div class="xxipt-stat"><b>4,860+</b><span>高清原创视频</span></div>
+          <div class="xxipt-stat"><b>128 万</b><span>社区注册观众</span></div>
+          <div class="xxipt-stat"><b>97.4%</b><span>内容口碑好评率</span></div>
+        </div>
+      </div>
+      <figure class="xxipt-hero-figure" style="margin:0;">
+        <div class="xxipt-hero-art">
+          <svg viewBox="0 0 800 560" role="img" aria-label="啊啊好爽轻点品牌主视觉：暖橙光下的城市天台，摄影师与镜头对准远处的灯光">
+            <defs>
+              <linearGradient id="xxiptSky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#2b2233"/>
+                <stop offset="0.55" stop-color="#6d3a3a"/>
+                <stop offset="1" stop-color="#e8462f"/>
+              </linearGradient>
+              <linearGradient id="xxiptGlow" x1="0" y1="1" x2="0" y2="0">
+                <stop offset="0" stop-color="#f2a63b" stop-opacity="0.85"/>
+                <stop offset="1" stop-color="#f2a63b" stop-opacity="0"/>
+              </linearGradient>
+              <linearGradient id="xxiptRoof" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#1b1712"/>
+                <stop offset="1" stop-color="#332a22"/>
+              </linearGradient>
+            </defs>
+            <rect width="800" height="560" fill="url(#xxiptSky)"/>
+            <circle cx="612" cy="150" r="72" fill="#ffd79a" opacity="0.9"/>
+            <circle cx="612" cy="150" r="120" fill="#ffd79a" opacity="0.18"/>
+            <g opacity="0.85">
+              <rect x="60" y="290" width="86" height="150" fill="#231d26"/>
+              <rect x="160" y="250" width="110" height="190" fill="#2b232e"/>
+              <rect x="286" y="310" width="70" height="130" fill="#241d28"/>
+              <rect x="640" y="270" width="110" height="170" fill="#2b232e"/>
+              <rect x="520" y="320" width="90" height="120" fill="#231d26"/>
+              <g fill="#f2a63b" opacity="0.75">
+                <rect x="76" y="310" width="12" height="14"/><rect x="104" y="310" width="12" height="14"/>
+                <rect x="76" y="342" width="12" height="14"/><rect x="130" y="342" width="12" height="14"/>
+                <rect x="180" y="274" width="14" height="16"/><rect x="212" y="274" width="14" height="16"/>
+                <rect x="244" y="310" width="14" height="16"/><rect x="212" y="346" width="14" height="16"/>
+                <rect x="660" y="296" width="14" height="16"/><rect x="700" y="296" width="14" height="16"/>
+                <rect x="660" y="336" width="14" height="16"/><rect x="540" y="344" width="12" height="14"/>
+              </g>
+            </g>
+            <rect y="430" width="800" height="130" fill="url(#xxiptRoof)"/>
+            <rect y="424" width="800" height="10" fill="#0f0d0b"/>
+            <rect x="0" y="290" width="800" height="150" fill="url(#xxiptGlow)" opacity="0.28"/>
+            <g transform="translate(300 300)">
+              <rect x="0" y="70" width="30" height="120" rx="10" fill="#12100e"/>
+              <circle cx="15" cy="52" r="20" fill="#3a2a20"/>
+              <rect x="58" y="96" width="120" height="74" rx="10" fill="#12100e"/>
+              <circle cx="118" cy="133" r="26" fill="#e8462f" opacity="0.85"/>
+              <circle cx="118" cy="133" r="12" fill="#ffd79a"/>
+              <rect x="58" y="86" width="46" height="16" rx="6" fill="#12100e"/>
+              <rect x="96" y="168" width="10" height="46" fill="#12100e"/>
+              <rect x="150" y="168" width="10" height="46" fill="#12100e"/>
+            </g>
+            <g transform="translate(560 340)">
+              <rect x="0" y="40" width="24" height="104" rx="9" fill="#12100e"/>
+              <circle cx="12" cy="24" r="17" fill="#3a2a20"/>
+              <rect x="34" y="58" width="96" height="60" rx="9" fill="#12100e"/>
+              <circle cx="82" cy="88" r="22" fill="#f2a63b" opacity="0.9"/>
+              <circle cx="82" cy="88" r="9" fill="#fff8ea"/>
+            </g>
+            <path d="M0 452 L240 424 L520 452 L800 430 L800 560 L0 560 Z" fill="#0d0b09" opacity="0.75"/>
+            <g fill="#f6efe4" opacity="0.55">
+              <text x="46" y="526" font-size="15" font-family="sans-serif" letter-spacing="6">AI AI HAO SHUANG QING DIAN</text>
+            </g>
+          </svg>
+        </div>
+        <figcaption class="xxipt-hero-caption">
+          <span>本期主视觉：天台上的第九次拍摄 · 4K HDR</span>
+          <span>摄制 / 啊啊好爽轻点影像组</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- FOCUS + VIDEO LIST -->
+  <section class="xxipt-section" id="xxipt-focus" aria-labelledby="xxipt-focus-title">
+    <div class="xxipt-wrap">
+      <div class="xxipt-section-head">
+        <div>
+          <span class="xxipt-tag-label">Focus / 焦点</span>
+          <h2 id="xxipt-focus-title">焦点内容：镜头前的爽快，镜头后的克制</h2>
+          <p>啊啊好爽轻点官网每周推出焦点视频与文字推荐。我们把高热度的精品内容放在一起，让新观众一眼看到品牌判断力，也让老观众找到值得重看的片刻。</p>
+        </div>
+        <a class="xxipt-btn ghost small" href="#xxipt-index">查看热度榜</a>
+      </div>
+
+      <div class="xxipt-focus">
+        <article class="xxipt-focus-main">
+          <div class="xxipt-cover">
+            <svg viewBox="0 0 640 360" role="img" aria-label="焦点视频封面：清晨厨房里手冲咖啡的水汽与窗外第一缕光">
+              <defs>
+                <linearGradient id="xxiptK2" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#f6e3c8"/>
+                  <stop offset="1" stop-color="#d98f4e"/>
+                </linearGradient>
+                <linearGradient id="xxiptSteam" x1="0" y1="1" x2="0" y2="0">
+                  <stop offset="0" stop-color="#fff" stop-opacity="0.7"/>
+                  <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+              <rect width="640" height="360" fill="url(#xxiptK2)"/>
+              <rect x="0" y="250" width="640" height="110" fill="#8a5a2b"/>
+              <rect x="0" y="244" width="640" height="12" fill="#b3763d"/>
+              <rect x="380" y="40" width="200" height="180" rx="8" fill="#fff6e6" opacity="0.55"/>
+              <rect x="404" y="64" width="152" height="132" rx="6" fill="#ffe9b8" opacity="0.9"/>
+              <circle cx="480" cy="130" r="44" fill="#fff3d2"/>
+              <g transform="translate(180 150)">
+                <path d="M0 40 L120 0 L120 108 L0 68 Z" fill="#4a2f1a"/>
+                <ellipse cx="60" cy="34" rx="60" ry="14" fill="#5d3b22"/>
+                <ellipse cx="60" cy="34" rx="42" ry="9" fill="#241408"/>
+                <path d="M30 6 q10 -26 0 -46 M60 0 q12 -30 0 -54 M90 6 q10 -26 0 -46" stroke="url(#xxiptSteam)" stroke-width="8" fill="none" stroke-linecap="round"/>
+              </g>
+              <circle cx="540" cy="300" r="34" fill="#3d2a17" opacity="0.8"/>
+              <rect x="60" y="290" width="120" height="8" rx="4" fill="#3d2a17" opacity="0.5"/>
+            </svg>
+            <div class="xxipt-play" aria-hidden="true"><span>▶</span></div>
+          </div>
+          <div class="xxipt-focus-body">
+            <span class="xxipt-chip">日常记录</span><span class="xxipt-chip">治愈影像</span>
+            <h3>《第十七杯：把清晨的五分钟还给自己》</h3>
+            <p>一支关于起床、磨豆与等待的短片。没有台词，只有水声、呼吸和窗外逐渐亮起来的天。导演组用三机位记录了一个普通工作日最不普通的前五分钟。</p>
+            <div class="xxipt-meta"><span>创作者 / 林晚照</span><span>播放 36.2 万</span><span>点赞 2.8 万</span><span>收藏 1.4 万</span></div>
+            <div class="xxipt-ops">
+              <button class="xxipt-op" type="button" data-xxipt-like>♡ 点赞 <span>28104</span></button>
+              <button class="xxipt-op" type="button" data-xxipt-save>☆ 收藏</button>
+              <button class="xxipt-op" type="button" data-xxipt-copy>复制链接</button>
+              <button class="xxipt-op" type="button" data-xxipt-modal="share">分享</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="xxipt-vlist">
+          <div class="xxipt-vlist-item">
+            <h4><a href="#xxipt-focus">《轻一点，再轻一点》手作器物修复实录</a></h4>
+            <p>修复师用四十分钟还原一只缺口陶杯，镜头贴近指尖，讲述「慢慢来」这件事的手感。</p>
+            <span class="xxipt-chip">手作DIY</span><span class="xxipt-chip">创作幕后</span>
+            <div class="xxipt-meta"><span>周叙白 · 播放 18.7 万 · 收藏 9,206</span></div>
+            <div class="xxipt-ops"><button class="xxipt-op" type="button" data-xxipt-like>♡ 点赞 <span>12066</span></button><button class="xxipt-op" type="button" data-xxipt-save>☆ 收藏</button></div>
+          </div>
+          <div class="xxipt-vlist-item">
+            <h4><a href="#xxipt-focus">《爽快的十分钟》城市骑行夜航指南</a></h4>
+            <p>从江边到老巷，一条适合新手的夜骑路线，含装备清单与三个安全要点。</p>
+            <span class="xxipt-chip">城市探索</span><span class="xxipt-chip">实用技巧</span>
+            <div class="xxipt-meta"><span>阿岚骑不动 · 播放 25.4 万 · 收藏 1.1 万</span></div>
+            <div class="xxipt-ops"><button class="xxipt-op" type="button" data-xxipt-like>♡ 点赞 <span>19072</span></button><button class="xxipt-op" type="button" data-xxipt-save>☆ 收藏</button></div>
+          </div>
+          <div class="xxipt-vlist-item">
+            <h4><a href="#xxipt-focus">《声音的质地》一条街的十二种呼吸</a></h4>
+            <p>收音师带着双耳麦克风走完整条老街，把叫卖、脚步、风铃声做成一支沉浸短片。</p>
+            <span class="xxipt-chip">在地文化</span><span class="xxipt-chip">艺术美学</span>
+            <div class="xxipt-meta"><span>声场计划 · 播放 12.9 万 · 收藏 7,840</span></div>
+            <div class="xxipt-ops"><button class="xxipt-op" type="button" data-xxipt-like>♡ 点赞 <span>8830</span></button><button class="xxipt-op" type="button" data-xxipt-save>☆ 收藏</button></div>
+          </div>
+          <div class="xxipt-vlist-item">
+            <h4><a href="#xxipt-focus">《从零到一条片》新人剪辑的三个笨办法</a></h4>
+            <p>不讲软件技巧，只讲判断顺序：先删什么、后留什么、最后怎么让情绪落地。</p>
+            <span class="xxipt-chip">教程干货</span><span class="xxipt-chip">经验分享</span>
+            <div class="xxipt-meta"><span>剪辑师老K · 播放 31.5 万 · 收藏 2.3 万</span></div>
+            <div class="xxipt-ops"><button class="xxipt-op" type="button" data-xxipt-like>♡ 点赞 <span>24418</span></button><button class="xxipt-op" type="button" data-xxipt-save>☆ 收藏</button></div>
+          </div>
+          <div class="xxipt-vlist-item">
+            <h4><a href="#xxipt-focus">《我家楼下那只猫的第七个冬天》</a></h4>
+            <p>连续七年拍摄同一只流浪猫，今年它终于有了名字和一张属于自己的沙发。</p>
+            <span class="xxipt-chip">萌宠日常</span><span class="xxipt-chip">情感故事</span>
+            <div class="xxipt-meta"><span>三花观察员 · 播放 42.8 万 · 收藏 1.9 万</span></div>
+            <div class="xxipt-ops"><button class="xxipt-op" type="button" data-xxipt-like>♡ 点赞 <span>33920</span></button><button class="xxipt-op" type="button" data-xxipt-save>☆ 收藏</button></div>
+          </div>
+          <div class="xxipt-vlist-item">
+            <h4><a href="#xxipt-focus">《深夜食堂的一百种沉默》行业观察</a></h4>
+            <p>跟拍小馆主理人三个月，记录餐饮人真实的午夜心情与成本账本。</p>
+            <span class="xxipt-chip">商业观察</span><span class="xxipt-chip">人物访谈</span>
+            <div class="xxipt-meta"><span>食话实说 · 播放 21.3 万 · 收藏 9,940</span></div>
+            <div class="xxipt-ops"><button class="xxipt-op" type="button" data-xxipt-like>♡ 点赞 <span>15066</span></button><button class="xxipt-op" type="button" data-xxipt-save>☆ 收藏</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEEP ARTICLE -->
+  <section class="xxipt-section" id="xxipt-deep" aria-labelledby="xxipt-deep-title">
+    <div class="xxipt-wrap">
+      <div class="xxipt-deep">
+        <span class="xxipt-tag-label">Brand Story / 品牌深度解析</span>
+        <h2 id="xxipt-deep-title">啊啊好爽轻点：把「爽快」拍得有分寸，把「轻点」拍得有重量</h2>
+        <p>很多人第一次听到「啊啊好爽轻点」这个名字，会以为它只是情绪化的表达。但在我们的品牌认知里，它其实是一对完整的矛盾：前半句是释放，后半句是克制。一个优秀的视频作品，恰恰需要这两种力量同时存在。啊啊好爽轻点官方网站从创立第一天起，就把这对矛盾写进了内容准则里——我们鼓励创作者真实表达，也要求他们在表达之前学会尊重镜头、尊重被拍摄者、尊重观众的注意力。这也是我们作为一家持续运营的视频企业，最基础的自我要求。</p>
+
+        <h3>一、品牌源自一次「不小心拍到的好画面」</h3>
+        <p>2021 年秋天，团队只有三个人和一台借来的相机。我们在城中村的天台上等一场雨，等到凌晨两点，雨没来，风先来了。晾衣绳上的白衬衫被吹得像一面小旗，摄影助理下意识说了句「好爽」。那个镜头后来成了我们第一条破百万播放的短片，也成了品牌名的来处。我们逐渐明白，所谓精品内容不是设计出来的奇观，而是你在正确的时间、正确的位置，愿意多等二十分钟。此后三年，我们把这套「多等二十分钟」的方法论写进了创作手册：每条视频必须有明确的情绪落点，每个画面必须能独立成帧，每段剪辑必须经得起重看。这种近乎固执的坚持，让啊啊好爽轻点在生活影像这个垂直领域积累了口碑，也让「值得信赖」这四个字有了具体的样子。</p>
+        <p>现在，平台汇聚了 860 多位签约与入驻创作者，覆盖日常记录、经验分享、教程干货、深度测评、人物访谈、城市探索、在地文化、创作幕后等三十余个题材方向。我们不追求无限扩张品类，而是坚持在一个能被做深的领域里持续运营：让高清画质成为底线，让原创成为默认选项，让正版授权成为合作的前提。对于观众，这意味着打开页面就能看到稳定的品质；对于创作者，这意味着努力可以被看见、被记录、被合理回报。</p>
+
+        <div class="xxipt-pull">我们内部有一句话：真正的爽快，是让观众在看完之后，愿意把手机放下三秒钟。</div>
+
+        <h3>二、内容生态：从一次点击到长期陪伴</h3>
+        <p>啊啊好爽轻点官网的内容结构分为三层。第一层是焦点与精选，由编辑团队每周评审，标准只看两件事——情绪是否真实、信息是否准确。第二层是专题企划，围绕季节、城市与生活议题组织内容，例如本季的「冬日创作挑战」，要求创作者用同一条街道、同一段光线、同一个主题，拍出完全不同的理解。第三层是社区日常流，观众可以在这里看到新人创作者的第一次尝试，也可以看到成熟作者的实验作品。三层之间并非流量分级，而是观看距离的分级：有人想快速找到精品，有人愿意慢慢逛，我们同时满足。</p>
+        <p>为了让内容生态健康运转，平台建立了三条机制。其一是「双周复盘」，每位签约创作者每两周会收到一份数据与内容建议，包含完播率曲线、观众留存节点和三条可执行改进项；其二是「新人护航」，新入驻创作者的前三条作品会获得编辑一对一反馈，不涉及流量倾斜，只谈创作本身；其三是「口碑优先」，在推荐逻辑中，收藏与重看权重大于瞬时播放量，我们希望被记住，而不是被划过。这套机制运行两年后，平台内容的平均完播率提升了 41%，用户主动收藏率提升 2.3 倍，社区里「值得重看」成为出现频率最高的评价词之一。</p>
+
+        <h3>三、技术与品质：高清是底线，不是卖点</h3>
+        <p>在啊啊好爽轻点，高清不是宣传语，而是上传标准。平台支持 4K HDR 上传与自适应码率播放，同时为移动端用户提供智能压缩方案，保证在弱网环境下依然能看清人物表情。我们的技术团队花了八个月重做播放器内核，把首帧加载时间从 1.9 秒压到 0.6 秒以内，把拖动回看的卡顿率降到 0.7% 以下。这些数字不会出现在任何宣传海报上，但它们决定了观众会不会看第二眼。对一家视频企业来说，专业不是形容词，是可以在后台被量化的工作。</p>
+        <p>在版权与合规方面，平台所有上线内容均需通过原创声明与授权链路核验，音乐、字体、素材均有明确来源记录。我们与多家音乐厂牌、字体机构建立正版合作，为创作者提供可直接使用的授权曲库与字幕模板。我们相信，只有让正版成为最省事的选择，原创才会成为最自然的选择。这也是我们对行业的一点微小贡献：把规范的成本降下来，把创意的空间留出来。</p>
+
+        <h3>四、社区与责任：让每一次表达都被善待</h3>
+        <p>社区是啊啊好爽轻点最珍视的资产。我们设立了内容安全与社区公约双轨机制：一方面通过人工复核与算法提示减少不当内容，另一方面在评论区推行「具体表达」倡导——鼓励说出你喜欢哪一帧、哪一句、哪一次停顿，而不是只留下情绪化的短句。我们做过一次统计，当评论从「好看」变成「第三分钟那个转身让我想起我爸」，创作者的下一条作品质量平均提升明显。善意是可以被训练出来的，社区氛围也是。</p>
+        <p>此外，平台每年投入固定预算支持公益影像计划，为乡村学校、社区养老机构、独立书店提供免费拍摄与剪辑培训。我们把这称为「影响力的正确用法」：不是让更多人看到我们，而是让更多值得被看到的人被看到。2025 年，公益计划共完成 46 支纪录短片，累计培训 320 位零基础学员，其中 17 位后来成为平台入驻创作者。这些故事没有爆款数据，但它们构成了品牌真正的底色。我们始终认为，一个视频品牌能否走得远，最终取决于它是否愿意在没有人鼓掌的地方，也把镜头端稳。</p>
+        <p>回到最初那个名字。啊啊好爽轻点，既是情绪，也是分寸。我们会在未来继续做同一件事：用高清的画面、专业的态度和真实的表达，记录那些让人想再看一遍的瞬间。感谢每一位观众、每一位创作者，也感谢每一位愿意在评论区认真说话的人。这个社区由你们共同写成，而我们会继续把它运营好。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECIALS -->
+  <section class="xxipt-section" id="xxipt-specials" aria-labelledby="xxipt-specials-title">
+    <div class="xxipt-wrap">
+      <div class="xxipt-section-head">
+        <div>
+          <span class="xxipt-tag-label">Specials / 专题企划</span>
+          <h2 id="xxipt-specials-title">专题企划：同一条街，十二种拍法</h2>
+          <p>啊啊好爽轻点的专题不以数量取胜，而以完成度取胜。每个专题都有明确的命题、更新的节奏和可被检验的成果。</p>
+        </div>
+        <button class="xxipt-btn ghost small" type="button" data-xxipt-modal="submit">报名参与</button>
+      </div>
+
+      <div class="xxipt-specials">
+        <article class="xxipt-special">
+          <span class="xxipt-status">更新中 · 第 3 周</span>
+          <h3>冬日创作挑战：一条街的十二种拍法</h3>
+          <p>限定同一街区、同一时段，创作者自由选择题材。目前已收到 218 份投稿，评审看重情绪落点与镜头耐心。</p>
+          <ul>
+            <li>《早市的第六盏灯》· 日常记录 · 已上线</li>
+            <li>《修鞋摊的十分钟》· 人物访谈 · 已上线</li>
+            <li>《雪前的最后一趟公交》· 城市探索 · 待上线</li>
+          </ul>
+        </article>
+        <article class="xxipt-special">
+          <span class="xxipt-status">更新中 · 第 2 周</span>
+          <h3>轻点手作：器物修复与慢工课</h3>
+          <p>联合六位手作创作者，记录修复、打磨、上釉的完整流程，强调可复现的步骤与真实的时间成本。</p>
+          <ul>
+            <li>《缺口陶杯的四十分钟》· 手作DIY</li>
+            <li>《一把旧椅子的第二次生命》· 创作幕后</li>
+            <li>《上釉之前，先学会等待》· 教程干货</li>
+          </ul>
+        </article>
+        <article class="xxipt-special">
+          <span class="xxipt-status done">已完结 · 12 条</span>
+          <h3>声音的地图：城市听觉档案</h3>
+          <p>十二位收音师用双耳麦克风记录城市声音，形成可供下载的公开声景库，已开放非商业授权使用。</p>
+          <ul>
+            <li>《清晨五点的菜市场》· 在地文化</li>
+            <li>《地铁换乘通道的回声》· 艺术美学</li>
+            <li>《老式电梯的金属呼吸》· 城市探索</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUTHORS -->
+  <section class="xxipt-section" id="xxipt-authors" aria-labelledby="xxipt-authors-title">
+    <div class="xxipt-wrap">
+      <div class="xxipt-section-head">
+        <div>
+          <span class="xxipt-tag-label">Creators / 创作者矩阵</span>
+          <h2 id="xxipt-authors-title">创作者矩阵：把热爱做成长期作品</h2>
+          <p>他们来自不同城市与行业，却共享同一种耐心。点击作者名片可查看简介弹窗，了解他们的创作方法与代表作品。</p>
+        </div>
+      </div>
+
+      <div class="xxipt-authors">
+        <article class="xxipt-author">
+          <div class="xxipt-avatar" style="background:linear-gradient(135deg,#e8462f,#f2a63b)">林</div>
+          <h3>林晚照</h3>
+          <div class="xxipt-field">日常记录 · 治愈影像</div>
+          <p>习惯在清晨拍摄，认为光线比台词更会说话。作品多围绕厨房、窗台与通勤路，节奏缓慢，注重呼吸感。坚持每支片子只用自然声，尽量不加配乐。</p>
+          <div class="xxipt-nums"><span><b>86</b>作品</span><span><b>24.6万</b>粉丝</span></div>
+          <div class="xxipt-ops" style="justify-content:center;margin-top:12px;"><button class="xxipt-op" type="button" data-xxipt-author="林晚照|日常记录与治愈影像创作者，擅长清晨光线与自然声叙事，代表作为《第十七杯》。">查看简介</button></div>
+        </article>
+        <article class="xxipt-author">
+          <div class="xxipt-avatar" style="background:linear-gradient(135deg,#3d5a80,#7fa8c9)">周</div>
+          <h3>周叙白</h3>
+          <div class="xxipt-field">手作DIY · 创作幕后</div>
+          <p>器物修复师出身，镜头克制、步骤清晰。擅长把技术流程讲成有温度的故事，常年在工作室拍摄，坚持一镜到底展示关键动作，拒绝过度剪辑。</p>
+          <div class="xxipt-nums"><span><b>54</b>作品</span><span><b>13.2万</b>粉丝</span></div>
+          <div class="xxipt-ops" style="justify-content:center;margin-top:12px;"><button class="xxipt-op" type="button" data-xxipt-author="周叙白|器物修复师与手作影像创作者，强调可复现步骤，代表专题《轻点手作》。">查看简介</button></div>
+        </article>
+        <article class="xxipt-author">
+          <div class="xxipt-avatar" style="background:linear-gradient(135deg,#2f6f5e,#8fbf9f)">岚</div>
+          <h3>阿岚骑不动</h3>
+          <div class="xxipt-field">城市探索 · 户外活动</div>
+          <p>骑行十年，走过 40 多座城市的夜路。作品以路线攻略与安全提示见长，语言直白，信息密度高，被观众称为「看完就能出门」的实用派创作者。</p>
+          <div class="xxipt-nums"><span><b>112</b>作品</span><span><b>31.8万</b>粉丝</span></div>
+          <div class="xxipt-ops" style="justify-content:center;margin-top:12px;"><button class="xxipt-op" type="button" data-xxipt-author="阿岚骑不动|城市骑行创作者，专注夜骑路线与装备复盘，代表作《爽快的十分钟》。">查看简介</button></div>
+        </article>
+        <article class="xxipt-author">
+          <div class="xxipt-avatar" style="background:linear-gradient(135deg,#6b4a8f,#c39bd3)">K</div>
+          <h3>剪辑师老K</h3>
+          <div class="xxipt-field">教程干货 · 行业观察</div>
+          <p>从业十二年，做过广告也做过纪录片。讲课不炫技，先讲判断再讲操作，强调「删掉的勇气」。他的教程被不少新人当作入门第一课反复观看。</p>
+          <div class="xxipt-nums"><span><b>97</b>作品</span><span><b>42.1万</b>粉丝</span></div>
+          <div class="xxipt-ops" style="justify-content:center;margin-top:12px;"><button class="xxipt-op" type="button" data-xxipt-author="剪辑师老K|资深剪辑与影像教学创作者，主张先判断后操作，代表作《从零到一条片》。">查看简介</button></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- INDEX / RANK / COMMENTS -->
+  <section class="xxipt-section" id="xxipt-index" aria-labelledby="xxipt-index-title">
+    <div class="xxipt-wrap">
+      <div class="xxipt-section-head">
+        <div>
+          <span class="xxipt-tag-label">Rank &amp; Voices / 榜单与口碑</span>
+          <h2 id="xxipt-index-title">口碑榜与观众评价：真实反馈比数据更动人</h2>
+          <p>榜单按收藏与重看加权计算，评论区展示来自社区的真实声音。啊啊好爽轻点相信，值得信赖的口碑来自持续运营的每一天。</p>
+        </div>
+      </div>
+
+      <div class="xxipt-index">
+        <div class="xxipt-index-card">
+          <h3>本周热度榜</h3>
+          <ol class="xxipt-rank">
+            <li><span class="xxipt-no">01</span><div class="xxipt-rank-txt"><b>《我家楼下那只猫的第七个冬天》</b><span>三花观察员 · 萌宠日常</span></div><span class="xxipt-hot">42.8 万</span></li>
+            <li><span class="xxipt-no">02</span><div class="xxipt-rank-txt"><b>《第十七杯：把清晨的五分钟还给自己》</b><span>林晚照 · 日常记录</span></div><span class="xxipt-hot">36.2 万</span></li>
+            <li><span class="xxipt-no">03</span><div class="xxipt-rank-txt"><b>《从零到一条片》新人剪辑的三个笨办法</b><span>剪辑师老K · 教程干货</span></div><span class="xxipt-hot">31.5 万</span></li>
+            <li><span class="xxipt-no">04</span><div class="xxipt-rank-txt"><b>《爽快的十分钟》城市骑行夜航指南</b><span>阿岚骑不动 · 城市探索</span></div><span class="xxipt-hot">25.4 万</span></li>
+            <li><span class="xxipt-no">05</span><div class="xxipt-rank-txt"><b>《深夜食堂的一百种沉默》</b><span>食话实说 · 商业观察</span></div><span class="xxipt-hot">21.3 万</span></li>
+            <li><span class="xxipt-no">06</span><div class="xxipt-rank-txt"><b>《轻一点，再轻一点》手作修复实录</b><span>周叙白 · 手作DIY</span></div><span class="xxipt-hot">18.7 万</span></li>
+          </ol>
+        </div>
+        <div class="xxipt-index-card">
+          <h3>新人榜与口碑摘要</h3>
+          <ol class="xxipt-rank">
+            <li><span class="xxipt-no">01</span><div class="xxipt-rank-txt"><b>明天不熬夜</b><span>新人 · 日常生活记录，三条作品完播率 78%</span></div><span class="xxipt-hot">新人</span></li>
+            <li><span class="xxipt-no">02</span><div class="xxipt-rank-txt"><b>南墙植物园</b><span>新人 · 阳台种植科普，收藏率表现突出</span></div><span class="xxipt-hot">新人</span></li>
+            <li><span class="xxipt-no">03</span><div class="xxipt-rank-txt"><b>收音师小满</b><span>新人 · 城市声景，单条评论互动 1,200+</span></div><span class="xxipt-hot">新人</span></li>
+          </ol>
+          <p style="font-size:13px;color:var(--xxipt-mute);margin-top:12px;">口碑综合评分 4.8 / 5，基于 6,420 条有效评价。评价维度包含画面质感、内容真实度、信息实用性与社区氛围。</p>
+          <div class="xxipt-ops">
+            <button class="xxipt-op" type="button" data-xxipt-copy>复制榜单链接</button>
+            <button class="xxipt-op" type="button" data-xxipt-modal="report">反馈建议</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="xxipt-comments" style="margin-top:24px;">
+        <article class="xxipt-comment">
+          <div class="xxipt-comment-top"><div class="xxipt-cavatar">余</div><b>余小舟</b><em>2 小时前</em></div>
+          <p>第三分钟那个转身让我想起我爸。不是煽情，是刚好。啊啊好爽轻点的片子总有一种不急着说服你的耐心，我愿意为这种耐心多停留一会儿。</p>
+          <span class="xxipt-chip xxipt-tagchip">治愈影像</span>
+        </article>
+        <article class="xxipt-comment">
+          <div class="xxipt-comment-top"><div class="xxipt-cavatar">白</div><b>白露为霜</b><em>5 小时前</em></div>
+          <p>教程部分真的可复现，我照着做了两遍，第二次明显顺手。希望以后多出这种带步骤表和参数的作品，比只讲感觉的强太多。</p>
+          <span class="xxipt-chip xxipt-tagchip">教程干货</span>
+        </article>
+        <article class="xxipt-comment">
+          <div class="xxipt-comment-top"><div class="xxipt-cavatar">老</div><b>老陈不加班</b><em>昨天</em></div>
+          <p>画面是真的高清，弱网下拖动也不卡。作为普通观众我说不出技术细节，但我知道自己看完了 12 分钟没有走神，这很难得。</p>
+          <span class="xxipt-chip xxipt-tagchip">观看体验</span>
+        </article>
+        <article class="xxipt-comment">
+          <div class="xxipt-comment-top"><div class="xxipt-cavatar">橘</div><b>橘子汽水</b><em>昨天</em></div>
+          <p>评论区氛围真好。大家都在说具体的东西，没人吵架。一个小小的建议：能不能给专题加个追更提醒？我怕错过冬日挑战的最后一期。</p>
+          <span class="xxipt-chip xxipt-tagchip">社区氛围</span>
+        </article>
+        <article class="xxipt-comment">
+          <div class="xxipt-comment-top"><div class="xxipt-cavatar">沉</div><b>沉默的收音机</b><em>2 天前</em></div>
+          <p>声音的地图那个专题我反复听了好几遍。城市原来有这么多层次，以前通勤完全没注意过。希望公开声景库能继续更新。</p>
+          <span class="xxipt-chip xxipt-tagchip">在地文化</span>
+        </article>
+        <article class="xxipt-comment">
+          <div class="xxipt-comment-top"><div class="xxipt-cavatar">阿</div><b>阿朴</b><em>3 天前</em></div>
+          <p>作为刚入驻的创作者，收到了编辑的双周复盘，三条改进建议都很具体，没有那种模板式鼓励。这一点让我觉得这个平台是认真在做内容的。</p>
+          <span class="xxipt-chip xxipt-tagchip">创作者视角</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWS + PARTNERS -->
+  <section class="xxipt-section" id="xxipt-news" aria-labelledby="xxipt-news-title">
+    <div class="xxipt-wrap">
+      <div class="xxipt-two">
+        <div>
+          <span class="xxipt-tag-label">Updates / 企业动态</span>
+          <h2 id="xxipt-news-title" style="font-size:clamp(23px,2.8vw,30px);margin-bottom:22px;">企业动态与官方发布</h2>
+          <div class="xxipt-news">
+            <div class="xxipt-news-item">
+              <time>2026 / 11 / 20</time>
+              <h3>「冬日创作挑战」第二期开放报名</h3>
+              <p>本轮命题为「同一条街的十二种拍法」，报名截止 12 月 5 日，入选作品将在官网焦点区展示并获得制作支持。</p>
+            </div>
+            <div class="xxipt-news-item">
+              <time>2026 / 11 / 14</time>
+              <h3>播放器内核升级，首帧加载进一步缩短</h3>
+              <p>新版播放器优化了移动端自适应码率策略，弱网场景卡顿率下降至 0.7% 以下，高清与流畅不再二选一。</p>
+            </div>
+            <div class="xxipt-news-item">
+              <time>2026 / 11 / 06</time>
+              <h3>正版曲库扩充至 3,200 首</h3>
+              <p>与三家音乐厂牌完成授权合作，平台创作者可免费用于非商业与部分商业作品，版权链路完整可查。</p>
+            </div>
+            <div class="xxipt-news-item">
+              <time>2026 / 10 / 28</time>
+              <h3>公益影像计划年度成果发布</h3>
+              <p>全年完成 46 支纪录短片，培训 320 位零基础学员，其中 17 位成为平台入驻创作者。</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <span class="xxipt-tag-label">Partners / 合作品牌</span>
+          <h2 style="font-size:clamp(23px,2.8vw,30px);margin-bottom:22px;">合作与共创伙伴</h2>
+          <div class="xxipt-partners">
+            <div class="xxipt-partner">南窗书局<span>文化空间</span></div>
+            <div class="xxipt-partner">木与火器作<span>手作品牌</span></div>
+            <div class="xxipt-partner">回声唱片<span>正版音乐</span></div>
+            <div class="xxipt-partner">城市漫游社<span>户外社群</span></div>
+          </div>
+          <p style="font-size:13.5px;color:var(--xxipt-mute);margin-top:18px;">啊啊好爽轻点以开放姿态欢迎品牌与机构共创。我们更看重合作内容的完成度与价值观一致，而非曝光量级。合作咨询请通过页脚联系方式提交。</p>
+          <div class="xxipt-ops">
+            <button class="xxipt-op" type="button" data-xxipt-modal="submit">提交合作意向</button>
+            <button class="xxipt-op" type="button" data-xxipt-copy>复制合作邮箱</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="xxipt-section" id="xxipt-faq" aria-labelledby="xxipt-faq-title">
+    <div class="xxipt-wrap">
+      <div class="xxipt-section-head">
+        <div>
+          <span class="xxipt-tag-label">Help / 常见问题</span>
+          <h2 id="xxipt-faq-title">关于啊啊好爽轻点官网的常见问题</h2>
+          <p>以下问题由社区高频反馈整理，若仍未解决，可通过页脚联系方式联系我们。</p>
+        </div>
+      </div>
+      <div class="xxipt-faq">
+        <details>
+          <summary>如何成为啊啊好爽轻点的入驻创作者？</summary>
+          <p>在首页点击「投稿与报名」，填写作品链接与创作方向即可。我们会在 5 个工作日内完成初审，重点看内容真实度与完成度，不以粉丝量作为唯一标准。</p>
+        </details>
+        <details>
+          <summary>平台对画质和格式有什么要求？</summary>
+          <p>建议上传 1080P 及以上，支持 4K HDR。音频建议 48kHz 采样，字幕请使用平台模板以保证多端显示一致。上传后系统会自动生成多码率版本。</p>
+        </details>
+        <details>
+          <summary>作品版权归谁所有？</summary>
+          <p>作品版权归创作者所有。平台仅在授权范围内进行展示与推荐，商业合作会单独签署协议并明确收益分配，所有授权链路可查询。</p>
+        </details>
+        <details>
+          <summary>可以使用平台曲库中的音乐吗？</summary>
+          <p>可以。正版曲库现有 3,200 余首，非商业作品可免费使用；商业用途请在曲目页查看具体授权范围，或联系合作邮箱协助办理。</p>
+        </details>
+        <details>
+          <summary>专题企划如何报名？</summary>
+          <p>每个专题页都会开放报名入口，注明命题、截止时间与交付要求。入选作品将获得制作支持与焦点展示，未入选作品也会收到编辑反馈。</p>
+        </details>
+        <details>
+          <summary>如何反馈内容问题或提出建议？</summary>
+          <p>可在视频页点击「反馈建议」，选择问题类型并填写具体描述。我们承诺 48 小时内响应，涉及版权与安全的反馈会优先处理。</p>
+        </details>
+        <details>
+          <summary>平台是否支持内容下载？</summary>
+          <p>部分获得创作者授权的作品支持高清下载，用于个人学习与非商业分享。下载入口在视频详情页，需登录后使用。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUBMIT -->
+  <section class="xxipt-section" aria-labelledby="xxipt-submit-title">
+    <div class="xxipt-wrap">
+      <div class="xxipt-submit">
+        <div>
+          <span class="xxipt-kicker" style="color:var(--xxipt-amber);">Create With Us</span>
+          <h2 id="xxipt-submit-title">把你的镜头，放进啊啊好爽轻点的下一期</h2>
+          <p>无论你拍的是清晨的咖啡、深夜的街道，还是一只终于有了名字的猫，我们都愿意认真看完。投稿不设门槛，只设标准：真实、清晰、有分寸。</p>
+          <div class="xxipt-hero-actions">
+            <button class="xxipt-btn" type="button" data-xxipt-modal="submit">立即投稿</button>
+            <button class="xxipt-btn ghost" type="button" data-xxipt-modal="share" style="background:transparent;color:#f6efe4;border-color:#5a4f42;">分享给朋友</button>
+          </div>
+        </div>
+        <div>
+          <svg viewBox="0 0 360 260" role="img" aria-label="投稿区插画：一台架在三脚架上的相机，镜头指向远处的暖色光斑">
+            <defs>
+              <linearGradient id="xxiptC3" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#3a2f26"/>
+                <stop offset="1" stop-color="#211a14"/>
+              </linearGradient>
+              <radialGradient id="xxiptDot" cx="0.5" cy="0.5" r="0.5">
+                <stop offset="0" stop-color="#f2a63b"/>
+                <stop offset="1" stop-color="#f2a63b" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <rect width="360" height="260" fill="url(#xxiptC3)"/>
+            <circle cx="288" cy="66" r="46" fill="url(#xxiptDot)" opacity="0.8"/>
+            <circle cx="232" cy="120" r="20" fill="url(#xxiptDot)" opacity="0.6"/>
+            <rect x="60" y="128" width="150" height="86" rx="12" fill="#12100e"/>
+            <circle cx="150" cy="171" r="34" fill="#2c241c"/>
+            <circle cx="150" cy="171" r="20" fill="#e8462f" opacity="0.85"/>
+            <circle cx="143" cy="164" r="7" fill="#ffe7b0"/>
+            <rect x="118" y="108" width="52" height="24" rx="6" fill="#12100e"/>
+            <rect x="126" y="214" width="10" height="36" fill="#12100e"/>
+            <rect x="172" y="214" width="10" height="36" fill="#12100e"/>
+            <rect x="252" y="170" width="58" height="80" rx="8" fill="#2c241c" opacity="0.7"/>
+            <rect x="262" y="182" width="38" height="8" rx="4" fill="#f2a63b" opacity="0.7"/>
+            <rect x="262" y="198" width="26" height="8" rx="4" fill="#f6efe4" opacity="0.4"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="xxipt-footer">
+  <div class="xxipt-wrap">
+    <div class="xxipt-footer-grid">
+      <div>
+        <div class="xxipt-brand" style="margin-bottom:12px;">
+          <span class="xxipt-brand-mark">啊</span>
+          <span class="xxipt-brand-name" style="color:#fff;">啊啊好爽轻点</span>
+        </div>
+        <p style="color:#a89c8d;font-size:13px;">啊啊好爽轻点官方网站，专注高清原创影像与创作者内容生态的视频品牌。以真实、温暖与匠心，持续运营值得信赖的社区。</p>
+      </div>
+      <div>
+        <h4>内容</h4>
+        <ul>
+          <li><a href="#xxipt-focus">焦点内容</a></li>
+          <li><a href="#xxipt-specials">专题企划</a></li>
+          <li><a href="#xxipt-index">热度榜单</a></li>
+          <li><a href="#xxipt-authors">创作者矩阵</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#xxipt-deep">品牌解析</a></li>
+          <li><a href="#xxipt-news">企业动态</a></li>
+          <li><a href="#xxipt-faq">常见问题</a></li>
+          <li><button class="xxipt-op" type="button" data-xxipt-modal="report" style="border:0;background:none;padding:0;color:inherit;font-size:13.5px;">反馈建议</button></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系</h4>
+        <ul>
+          <li>合作邮箱：partner@aahao.studio</li>
+          <li>内容反馈：support@aahao.studio</li>
+          <li>工作时间：周一至周五 10:00–19:00</li>
+          <li><button class="xxipt-op" type="button" data-xxipt-copy style="border:0;background:none;padding:0;color:inherit;font-size:13.5px;">复制联系邮箱</button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="xxipt-footer-bottom">
+      <span>© 2026 啊啊好爽轻点官方网站 · 版权所有 · 持续运营中</span>
+      <span>原创内容受版权保护 · 正版授权可查 · 备案号：影备字第 2026-1188 号</span>
+    </div>
+  </div>
+</footer>
+
+<button class="xxipt-top" id="xxiptTop" type="button" aria-label="回到顶部">↑</button>
+<div class="xxipt-toast" id="xxiptToast" role="status" aria-live="polite"></div>
+
+<div class="xxipt-modal" id="xxiptModal" role="dialog" aria-modal="true" aria-labelledby="xxiptModalTitle">
+  <div class="xxipt-modal-mask" data-xxipt-close></div>
+  <div class="xxipt-modal-box">
+    <button class="xxipt-modal-close" type="button" data-xxipt-close aria-label="关闭弹窗">×</button>
+    <h3 id="xxiptModalTitle">提示</h3>
+    <div id="xxiptModalBody"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var toastEl = document.getElementById('xxiptToast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('on'); }, 2200);
+  }
+
+  /* mobile nav */
+  var burger = document.getElementById('xxiptBurger');
+  var mobileNav = document.getElementById('xxiptMobileNav');
+  burger.addEventListener('click', function(){
+    var open = mobileNav.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    burger.textContent = open ? '×' : '☰';
+  });
+  mobileNav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      mobileNav.classList.remove('open');
+      burger.setAttribute('aria-expanded','false');
+      burger.textContent = '☰';
+    }
+  });
+
+  /* search feedback */
+  var form = document.getElementById('xxiptSearchForm');
+  var input = document.getElementById('xxiptSearchInput');
+  var hint = document.getElementById('xxiptSearchHint');
+  var pool = ['冬日创作挑战','日常记录','手作修复','城市骑行','新人剪辑','声音的地图','林晚照','周叙白','阿岚骑不动','剪辑师老K','治愈影像','教程干货','猫的第七个冬天','夜骑路线'];
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var q = (input.value || '').trim();
+    if(!q){
+      hint.textContent = '请输入关键词，例如「手作」「夜骑」「新人剪辑」。';
+      return;
+    }
+    var hit = pool.filter(function(k){ return k.indexOf(q) > -1; });
+    if(hit.length){
+      hint.textContent = '为你找到 ' + hit.length + ' 条相关结果：' + hit.slice(0,4).join('、') + (hit.length > 4 ? ' 等' : '');
+      toast('已按「' + q + '」筛选内容');
+    }else{
+      hint.textContent = '暂未匹配到「' + q + '」，试试「日常」「城市」「教程」等关键词。';
+      toast('暂无匹配结果，换个关键词试试');
+    }
+  });
+
+  /* like / save */
+  document.addEventListener('click', function(e){
+    var like = e.target.closest('[data-xxipt-like]');
+    if(like){
+      var span = like.querySelector('span');
+      var num = parseInt((span ? span.textContent : '0').replace(/[^\d]/g,''), 10) || 0;
+      var on = like.classList.toggle('liked');
+      if(span){ span.textContent = on ? String(num + 1) : String(Math.max(0, num - 1)); }
+      like.firstChild.nodeValue = on ? '♥ 已赞 ' : '♡ 点赞 ';
+      toast(on ? '已点赞，感谢你的喜欢' : '已取消点赞');
+      return;
+    }
+    var save = e.target.closest('[data-xxipt-save]');
+    if(save){
+      var on2 = save.classList.toggle('saved');
+      save.textContent = on2 ? '★ 已收藏' : '☆ 收藏';
+      toast(on2 ? '已加入收藏夹' : '已取消收藏');
+      return;
+    }
+    var copyBtn = e.target.closest('[data-xxipt-copy]');
+    if(copyBtn){
+      var text = '啊啊好爽轻点官方网站 · 高清原创影像社区';
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(function(){ toast('链接已复制到剪贴板'); }, function(){ toast('复制失败，请手动选择文本'); });
+      }else{
+        toast('当前环境不支持自动复制，请手动选择文本');
+      }
+      return;
+    }
+  });
+
+  /* modal */
+  var modal = document.getElementById('xxiptModal');
+  var modalTitle = document.getElementById('xxiptModalTitle');
+  var modalBody = document.getElementById('xxiptModalBody');
+  var modalContent = {
+    share:'<p>把这条内容分享到你的社交平台，让更多朋友看到真实的高清影像。</p><div class="xxipt-share-row"><button class="xxipt-op" type="button" data-xxipt-copy>复制链接</button><button class="xxipt-op" type="button" data-xxipt-close>微信</button><button class="xxipt-op" type="button" data-xxipt-close>微博</button><button class="xxipt-op" type="button" data-xxipt-close>QQ</button></div>',
+    submit:'<p>投稿请准备：作品链接、创作方向、100 字以内简介。新人也可提交，我们更看重内容本身的完整度。</p><p style="font-size:13px;">审核周期约 5 个工作日，入选结果将通过站内通知发送。</p><button class="xxipt-btn small" type="button" data-xxipt-close>我知道了</button>',
+    report:'<p>请选择反馈类型并简要描述问题，我们承诺 48 小时内响应，版权与安全类反馈优先处理。</p><p style="font-size:13px;">反馈类型：内容问题 / 版权申诉 / 功能建议 / 合作咨询</p><button class="xxipt-btn small" type="button" data-xxipt-close>提交反馈</button>'
+  };
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-xxipt-modal]');
+    if(btn){
+      var key = btn.getAttribute('data-xxipt-modal');
+      modalTitle.textContent = key === 'share' ? '分享这条内容' : (key === 'submit' ? '投稿与报名' : '反馈建议');
+      modalBody.innerHTML = modalContent[key] || '<p>更多信息即将开放。</p>';
+      modal.classList.add('open');
+      return;
+    }
+    var authorBtn = e.target.closest('[data-xxipt-author]');
+    if(authorBtn){
+      var parts = authorBtn.getAttribute('data-xxipt-author').split('|');
+      modalTitle.textContent = parts[0];
+      modalBody.innerHTML = '<p>' + (parts[1] || '') + '</p><p style="font-size:13px;">点击下方按钮可查看其全部作品与创作方法说明。</p><button class="xxipt-btn small" type="button" data-xxipt-close>查看作品</button>';
+      modal.classList.add('open');
+      return;
+    }
+    if(e.target.closest('[data-xxipt-close]') || e.target === modal){
+      modal.classList.remove('open');
+    }
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){ modal.classList.remove('open'); }
+  });
+
+  /* back to top */
+  var topBtn = document.getElementById('xxiptTop');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520){ topBtn.classList.add('on'); } else { topBtn.classList.remove('on'); }
+  }, {passive:true});
+  topBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  /* smooth anchor without sticky overlap */
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('a[href^="#"]');
+    if(!a) return;
+    var id = a.getAttribute('href');
+    if(id === '#' || id.length < 2) return;
+    var target = document.querySelector(id);
+    if(!target) return;
+    e.preventDefault();
+    var head = document.querySelector('.xxipt-sticky');
+    var offset = head ? head.getBoundingClientRect().height + 8 : 0;
+    var y = target.getBoundingClientRect().top + window.pageYOffset - offset;
+    window.scrollTo({top:y, behavior:'smooth'});
+  });
+})();
+</script>
+</body>
+                                                                                                  </html>
